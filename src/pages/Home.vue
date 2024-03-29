@@ -175,10 +175,10 @@
 import Swiper from "swiper";
 import Typed from "typed.js";
 import { onMounted, ref } from "vue";
-import { RouterLink } from "vue-router";
+
 
 import NavBar from "../components/NavBar.vue";
-import { RouteName } from "../router";
+
 
 // Declare refs for swiper and typed
 const typed = ref<null | Typed>(null);
